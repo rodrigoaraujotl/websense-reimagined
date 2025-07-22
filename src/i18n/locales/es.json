@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Tecnología e Innovación",
+    "subtitle": "Transformando Ideas en Realidad Digital",
+    "description": "WebSense Consulting ofrece soluciones tecnológicas de vanguardia que impulsan el crecimiento empresarial y la innovación. Nos especializamos en desarrollo web moderno, soluciones en la nube y transformación digital.",
+    "cta": "Comenzar",
+    "learnMore": "Más Información"
+  },
+  "about": {
+    "title": "Acerca de WebSense",
+    "description": "Somos un equipo de expertos en tecnología apasionados por crear soluciones innovadoras que marcan la diferencia. Nuestra misión es ayudar a las empresas a aprovechar la tecnología para alcanzar sus objetivos.",
+    "mission": "Nuestra Misión",
+    "missionText": "Proporcionar servicios excepcionales de consultoría tecnológica que empoderen a las empresas para prosperar en la era digital.",
+    "vision": "Nuestra Visión",
+    "visionText": "Ser el socio tecnológico líder para empresas que buscan soluciones innovadoras y confiables."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "webDev": {
+      "title": "Desarrollo Web",
+      "description": "Sitios web y aplicaciones web modernas y responsivas construidas con tecnologías de vanguardia."
+    },
+    "cloud": {
+      "title": "Soluciones en la Nube",
+      "description": "Infraestructura escalable en la nube y servicios de migración para optimizar sus operaciones."
+    },
+    "consulting": {
+      "title": "Consultoría Tecnológica",
+      "description": "Orientación estratégica en tecnología para ayudarle a tomar decisiones informadas y alcanzar sus objetivos."
+    },
+    "mobile": {
+      "title": "Desarrollo Móvil",
+      "description": "Aplicaciones móviles nativas y multiplataforma que brindan experiencias excepcionales al usuario."
+    }
+  },
+  "portfolio": {
+    "title": "Nuestro Portafolio",
+    "subtitle": "Explora nuestros proyectos recientes e historias de éxito",
+    "viewProject": "Ver Proyecto",
+    "technologies": "Tecnologías",
+    "projects": {
+      "ecommerce": {
+        "title": "Plataforma E-Commerce",
+        "description": "Una solución de comercio electrónico moderna con características avanzadas y experiencia de usuario perfecta.",
+        "technologies": ["React", "Node.js", "MongoDB", "Stripe"]
+      },
+      "healthcare": {
+        "title": "Sistema de Gestión de Salud",
+        "description": "Plataforma integral de gestión de salud con seguimiento de pacientes y programación.",
+        "technologies": ["Vue.js", "Python", "PostgreSQL", "Docker"]
+      },
+      "fintech": {
+        "title": "Dashboard FinTech",
+        "description": "Dashboard de análisis financiero en tiempo real con capacidades avanzadas de informes.",
+        "technologies": ["Angular", "TypeScript", "Firebase", "Chart.js"]
+      },
+      "ai": {
+        "title": "Análisis Impulsado por IA",
+        "description": "Plataforma de aprendizaje automático para análisis predictivo e inteligencia empresarial.",
+        "technologies": ["React", "Python", "TensorFlow", "AWS"]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Listo para comenzar tu próximo proyecto? Discutamos tus ideas.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje"
+    },
+    "info": {
+      "email": "hello@websense.consulting",
+      "phone": "+34 (91) 123-4567",
+      "address": "Calle de la Tecnología, 123, Madrid, España 28001"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 WebSense Consulting. Todos los derechos reservados.",
+    "tagline": "Innovando el Futuro, Una Solución a la Vez"
+  }
+}

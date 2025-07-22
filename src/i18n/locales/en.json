@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Technology & Innovation",
+    "subtitle": "Transforming Ideas into Digital Reality",
+    "description": "WebSense Consulting delivers cutting-edge technology solutions that drive business growth and innovation. We specialize in modern web development, cloud solutions, and digital transformation.",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About WebSense",
+    "description": "We are a team of technology experts passionate about creating innovative solutions that make a difference. Our mission is to help businesses leverage technology to achieve their goals.",
+    "mission": "Our Mission",
+    "missionText": "To provide exceptional technology consulting services that empower businesses to thrive in the digital age.",
+    "vision": "Our Vision",
+    "visionText": "To be the leading technology partner for businesses seeking innovative and reliable solutions."
+  },
+  "services": {
+    "title": "Our Services",
+    "webDev": {
+      "title": "Web Development",
+      "description": "Modern, responsive websites and web applications built with cutting-edge technologies."
+    },
+    "cloud": {
+      "title": "Cloud Solutions",
+      "description": "Scalable cloud infrastructure and migration services to optimize your business operations."
+    },
+    "consulting": {
+      "title": "Technology Consulting",
+      "description": "Strategic technology guidance to help you make informed decisions and achieve your goals."
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "description": "Native and cross-platform mobile applications that provide exceptional user experiences."
+    }
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "Explore our recent projects and success stories",
+    "viewProject": "View Project",
+    "technologies": "Technologies",
+    "projects": {
+      "ecommerce": {
+        "title": "E-Commerce Platform",
+        "description": "A modern e-commerce solution with advanced features and seamless user experience.",
+        "technologies": ["React", "Node.js", "MongoDB", "Stripe"]
+      },
+      "healthcare": {
+        "title": "Healthcare Management System",
+        "description": "Comprehensive healthcare management platform with patient tracking and scheduling.",
+        "technologies": ["Vue.js", "Python", "PostgreSQL", "Docker"]
+      },
+      "fintech": {
+        "title": "FinTech Dashboard",
+        "description": "Real-time financial analytics dashboard with advanced reporting capabilities.",
+        "technologies": ["Angular", "TypeScript", "Firebase", "Chart.js"]
+      },
+      "ai": {
+        "title": "AI-Powered Analytics",
+        "description": "Machine learning platform for predictive analytics and business intelligence.",
+        "technologies": ["React", "Python", "TensorFlow", "AWS"]
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to start your next project? Let's discuss your ideas.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "info": {
+      "email": "hello@websense.consulting",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Tech Street, Innovation City, IC 12345"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 WebSense Consulting. All rights reserved.",
+    "tagline": "Innovating the Future, One Solution at a Time"
+  }
+}

@@ -2,41 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* WebSense Consulting Design System - Modern Technology & Innovation Theme
+All colors are HSL format for consistency.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Brand Colors */
+    --background: 320 30% 98%;      /* #fbf8fa */
+    --foreground: 202 76% 5%;       /* #030f16 */
+    
+    --card: 320 30% 98%;
+    --card-foreground: 202 76% 5%;
+    
+    --popover: 320 30% 98%;
+    --popover-foreground: 202 76% 5%;
+    
+    --primary: 236 100% 45%;        /* #000ee7 - title color */
+    --primary-foreground: 320 30% 98%;
+    
+    --secondary: 150 60% 89%;       /* #d1f3e2 - light highlight */
+    --secondary-foreground: 202 76% 5%;
+    
+    --muted: 150 60% 89%;
+    --muted-foreground: 202 50% 40%;
+    
+    --accent: 350 90% 53%;          /* #f41b40 - accent */
+    --accent-foreground: 320 30% 98%;
+    
+    --success: 169 84% 44%;         /* #12cfad - bold highlight */
+    --success-foreground: 320 30% 98%;
+    
+    --destructive: 350 90% 53%;
+    --destructive-foreground: 320 30% 98%;
+    
+    --border: 150 30% 85%;
+    --input: 150 30% 85%;
+    --ring: 236 100% 45%;
 
     --radius: 0.5rem;
+    
+    /* Modern gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--success)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(var(--secondary)));
+    
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--success) / 0.4);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,33 +71,36 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --background: 202 76% 5%;
+    --foreground: 320 30% 98%;
+    
+    --card: 202 76% 8%;
+    --card-foreground: 320 30% 98%;
+    
+    --popover: 202 76% 8%;
+    --popover-foreground: 320 30% 98%;
+    
+    --primary: 236 100% 65%;
+    --primary-foreground: 202 76% 5%;
+    
+    --secondary: 150 40% 20%;
+    --secondary-foreground: 320 30% 98%;
+    
+    --muted: 150 40% 20%;
+    --muted-foreground: 320 20% 70%;
+    
+    --accent: 350 90% 53%;
+    --accent-foreground: 320 30% 98%;
+    
+    --success: 169 84% 44%;
+    --success-foreground: 320 30% 98%;
+    
+    --destructive: 350 90% 53%;
+    --destructive-foreground: 320 30% 98%;
+    
+    --border: 150 20% 25%;
+    --input: 150 20% 25%;
+    --ring: 236 100% 65%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -100,6 +118,28 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-anonymous;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary));
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--success));
   }
 }
