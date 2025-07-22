@@ -86,5 +86,47 @@
   "footer": {
     "copyright": "© 2024 WebSense Consulting. Todos os direitos reservados.",
     "tagline": "Inovando o Futuro, Uma Solução por Vez"
+  },
+  "aboutPage": {
+    "title": "Sobre Nós",
+    "subtitle": "Bem-vindos à WebSense Consulting, onde a inovação encontra a expertise no mundo do e-commerce e soluções digitais.",
+    "story": {
+      "title": "Nossa História",
+      "paragraph1": "A WebSense Consulting foi fundada por Rodrigo Araujo, um experiente Technical Lead e visionário no campo do e-commerce. Com mais de uma década de experiência trabalhando com empresas líderes do setor, Rodrigo aperfeiçoou suas habilidades em arquitetura front-end, otimização de taxa de conversão (CRO) e otimização para mecanismos de busca (SEO).",
+      "paragraph2": "Como CEO da WebSense Consulting, Rodrigo traz uma riqueza de conhecimento e paixão por inovação para cada projeto. Sua experiência prática com plataformas como VTEX e Shopify, juntamente com um profundo entendimento de frameworks JavaScript como React, Angular e Vue.js, permite que ele entregue soluções de ponta que melhoram a experiência do usuário e maximizam o desempenho digital."
+    },
+    "mission": {
+      "title": "Nossa Missão",
+      "description": "Na WebSense Consulting, nossa missão é capacitar empresas a prosperar no cenário digital. Especializamo-nos em criar estratégias de e-commerce sob medida que não apenas melhoram a visibilidade online, mas também impulsionam o crescimento da receita. Nossa equipe de especialistas se dedica a fornecer serviços de consultoria de primeira linha que abrangem análise técnica, otimização SEO, técnicas de CRO e gestão de canais digitais."
+    },
+    "whyChoose": {
+      "title": "Por Que Nos Escolher?",
+      "expertise": {
+        "title": "Expertise",
+        "description": "Liderada por Rodrigo Araujo, nossa equipe possui conhecimento incomparável em desenvolvimento de e-commerce e estratégia digital."
+      },
+      "innovation": {
+        "title": "Inovação", 
+        "description": "Aproveitamos as mais recentes tecnologias e metodologias para garantir que sua presença digital esteja sempre à frente da concorrência."
+      },
+      "results": {
+        "title": "Foco em Resultados",
+        "description": "Nosso foco está em entregar resultados mensuráveis que contribuem para o sucesso e crescimento do seu negócio."
+      }
+    },
+    "servicesSection": {
+      "title": "Nossos Serviços"
+    },
+    "services": {
+      "analysis": "Análise Técnica de Website: Avaliações abrangentes para identificar áreas de melhoria e garantir desempenho ideal.",
+      "seo": "Otimização SEO: Abordagens estratégicas para melhorar a visibilidade nos mecanismos de busca e impulsionar o tráfego orgânico.",
+      "cro": "Estratégias CRO: Implementação de técnicas projetadas para aumentar as taxas de conversão e melhorar a experiência do usuário.",
+      "ecommerce": "Desenvolvimento E-commerce: Soluções personalizadas adaptadas às necessidades do seu negócio, utilizando plataformas como VTEX, Shopify e muito mais."
+    },
+    "cta": {
+      "title": "Junte-se à Nossa Jornada",
+      "description": "Na WebSense Consulting, acreditamos na construção de parcerias duradouras com nossos clientes. Estamos comprometidos em ajudá-lo a navegar pelas complexidades do mundo digital e alcançar seus objetivos de negócio.",
+      "contact": "Entre em contato conosco hoje e descubra como a WebSense Consulting pode transformar sua estratégia digital."
+    }
   }
 }

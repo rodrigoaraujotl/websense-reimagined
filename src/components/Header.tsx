@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Globe } from "lucide-react";
+import { useNavigate, useLocation } from "react-router-dom";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,16 +13,35 @@ import {
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
   };
 
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+    // If we're not on the home page, navigate there first
+    if (location.pathname !== "/") {
+      navigate("/");
+      // Wait for navigation to complete, then scroll
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    } else {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
     }
+    setIsMenuOpen(false);
+  };
+
+  const handleAboutClick = () => {
+    navigate("/about");
     setIsMenuOpen(false);
   };
 
@@ -44,7 +64,7 @@ const Header = () => {
               {t("nav.home")}
             </button>
             <button
-              onClick={() => scrollToSection("about")}
+              onClick={handleAboutClick}
               className="text-foreground hover:text-primary transition-colors font-anonymous"
             >
               {t("nav.about")}
@@ -119,7 +139,7 @@ const Header = () => {
                 {t("nav.home")}
               </button>
               <button
-                onClick={() => scrollToSection("about")}
+                onClick={handleAboutClick}
                 className="block w-full text-left px-3 py-2 text-foreground hover:text-primary transition-colors font-anonymous"
               >
                 {t("nav.about")}
