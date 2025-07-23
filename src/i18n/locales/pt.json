@@ -38,10 +38,6 @@
     "mobile": {
       "title": "Desenvolvimento Mobile",
       "description": "Aplicações móveis nativas e multiplataforma que proporcionam experiências excepcionais."
-    },
-    "ai": {
-      "title": "Inteligência Artificial",
-      "description": "Criação de agentes de IA e consultoria para empresas em fase inicial de implementação de IA."
     }
   },
   "portfolio": {
@@ -86,6 +82,38 @@
       "phone": "+55 (11) 98765-4321",
       "address": "Rua da Tecnologia, 123, São Paulo, SP 01234-567"
     }
+  },
+  "ai": {
+    "title": "Inteligência Artificial",
+    "subtitle": "Transforme seu negócio com o poder da Inteligência Artificial",
+    "description": "A Inteligência Artificial não é mais uma tecnologia do futuro - é uma realidade presente que está revolucionando a forma como as empresas operam. Na WebSense Consulting, ajudamos você a descobrir e implementar soluções de IA que podem automatizar processos, melhorar a tomada de decisões e impulsionar o crescimento do seu negócio.",
+    "description2": "Nossa abordagem personalizada garante que a IA seja implementada de forma estratégica, alinhada com seus objetivos de negócio e adaptada às necessidades específicas da sua empresa.",
+    "benefits": {
+      "automation": {
+        "title": "Automação Inteligente",
+        "description": "Automatize tarefas repetitivas e libere sua equipe para focar em atividades estratégicas."
+      },
+      "insights": {
+        "title": "Insights Precisos",
+        "description": "Tome decisões baseadas em dados com análises preditivas e inteligência de negócios."
+      },
+      "growth": {
+        "title": "Crescimento Escalável",
+        "description": "Acelere o crescimento do seu negócio com soluções de IA que evoluem com sua empresa."
+      }
+    },
+    "services": {
+      "title": "Nossos Serviços de IA",
+      "agents": {
+        "title": "Criação de Agentes de IA",
+        "description": "Desenvolvemos agentes inteligentes personalizados que podem atender clientes, processar informações e executar tarefas complexas automaticamente."
+      },
+      "consulting": {
+        "title": "Consultoria em IA",
+        "description": "Orientação especializada para empresas em fase inicial de implementação de IA, desde a estratégia até a execução."
+      }
+    },
+    "cta": "Descobrir Soluções de IA"
   },
   "footer": {
     "copyright": "© 2024 WebSense Consulting. Todos os direitos reservados.",

@@ -38,10 +38,6 @@
     "mobile": {
       "title": "Mobile Development",
       "description": "Native and cross-platform mobile applications that provide exceptional user experiences."
-    },
-    "ai": {
-      "title": "Artificial Intelligence",
-      "description": "AI agent creation and consulting services for companies in the early stages of AI implementation."
     }
   },
   "portfolio": {
@@ -86,6 +82,38 @@
       "phone": "+1 (555) 123-4567",
       "address": "123 Tech Street, Innovation City, IC 12345"
     }
+  },
+  "ai": {
+    "title": "Artificial Intelligence",
+    "subtitle": "Transform your business with the power of Artificial Intelligence",
+    "description": "Artificial Intelligence is no longer a technology of the future - it's a present reality that is revolutionizing how businesses operate. At WebSense Consulting, we help you discover and implement AI solutions that can automate processes, improve decision-making, and drive business growth.",
+    "description2": "Our personalized approach ensures that AI is implemented strategically, aligned with your business objectives and tailored to your company's specific needs.",
+    "benefits": {
+      "automation": {
+        "title": "Intelligent Automation",
+        "description": "Automate repetitive tasks and free your team to focus on strategic activities."
+      },
+      "insights": {
+        "title": "Precise Insights",
+        "description": "Make data-driven decisions with predictive analytics and business intelligence."
+      },
+      "growth": {
+        "title": "Scalable Growth",
+        "description": "Accelerate your business growth with AI solutions that evolve with your company."
+      }
+    },
+    "services": {
+      "title": "Our AI Services",
+      "agents": {
+        "title": "AI Agent Creation",
+        "description": "We develop custom intelligent agents that can serve customers, process information, and execute complex tasks automatically."
+      },
+      "consulting": {
+        "title": "AI Consulting",
+        "description": "Expert guidance for companies in the early stages of AI implementation, from strategy to execution."
+      }
+    },
+    "cta": "Discover AI Solutions"
   },
   "footer": {
     "copyright": "© 2024 WebSense Consulting. All rights reserved.",

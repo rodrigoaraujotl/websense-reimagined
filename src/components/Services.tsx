@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Monitor, Cloud, MessageSquare, Smartphone, Brain } from "lucide-react";
+import { Monitor, Cloud, MessageSquare, Smartphone } from "lucide-react";
 
 const Services = () => {
   const { t } = useTranslation();
@@ -26,11 +26,6 @@ const Services = () => {
       title: t("services.mobile.title"),
       description: t("services.mobile.description"),
     },
-    {
-      icon: <Brain className="h-10 w-10 text-accent" />,
-      title: t("services.ai.title"),
-      description: t("services.ai.description"),
-    },
   ];
 
   return (
@@ -42,7 +37,7 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="border-border hover:shadow-lg transition-all duration-300 hover:scale-105">
               <CardHeader className="text-center">
