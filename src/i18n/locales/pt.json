@@ -100,6 +100,10 @@
       "growth": {
         "title": "Crescimento Escalável",
         "description": "Acelere o crescimento do seu negócio com soluções de IA que evoluem com sua empresa."
+      },
+      "ecommerce": {
+        "title": "IA para E-commerce",
+        "description": "Personalize experiências de compra, otimize preços e aumente conversões com IA."
       }
     },
     "services": {
@@ -111,6 +115,10 @@
       "consulting": {
         "title": "Consultoria em IA",
         "description": "Orientação especializada para empresas em fase inicial de implementação de IA, desde a estratégia até a execução."
+      },
+      "ecommerce": {
+        "title": "Soluções de IA para E-commerce",
+        "description": "Implementamos chatbots inteligentes, recomendações personalizadas, análise preditiva de vendas e otimização de preços para lojas online."
       }
     },
     "cta": "Descobrir Soluções de IA"

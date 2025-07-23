@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Brain, Zap, Target, TrendingUp } from "lucide-react";
+import { Brain, Zap, Target, TrendingUp, ShoppingCart } from "lucide-react";
 
 const AI = () => {
   const { t } = useTranslation();
@@ -21,6 +21,11 @@ const AI = () => {
       icon: <TrendingUp className="h-8 w-8 text-success" />,
       title: t("ai.benefits.growth.title"),
       description: t("ai.benefits.growth.description"),
+    },
+    {
+      icon: <ShoppingCart className="h-8 w-8 text-primary" />,
+      title: t("ai.benefits.ecommerce.title"),
+      description: t("ai.benefits.ecommerce.description"),
     },
   ];
 
@@ -56,7 +61,7 @@ const AI = () => {
           </div>
 
           {/* Benefits */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {benefits.map((benefit, index) => (
               <Card key={index} className="border-border hover:shadow-lg transition-all duration-300 hover:scale-105">
                 <CardHeader className="text-center">
@@ -79,7 +84,7 @@ const AI = () => {
             <h3 className="text-2xl md:text-3xl font-bold text-primary mb-8 font-anonymous">
               {t("ai.services.title")}
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <Card className="border-border/50 bg-background/50 backdrop-blur-sm">
                 <CardHeader>
                   <CardTitle className="text-xl font-semibold text-foreground font-anonymous">
@@ -101,6 +106,18 @@ const AI = () => {
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed">
                     {t("ai.services.consulting.description")}
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="border-border/50 bg-background/50 backdrop-blur-sm">
+                <CardHeader>
+                  <CardTitle className="text-xl font-semibold text-foreground font-anonymous">
+                    {t("ai.services.ecommerce.title")}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground leading-relaxed">
+                    {t("ai.services.ecommerce.description")}
                   </p>
                 </CardContent>
               </Card>

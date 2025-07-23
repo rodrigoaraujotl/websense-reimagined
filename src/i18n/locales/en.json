@@ -100,6 +100,10 @@
       "growth": {
         "title": "Scalable Growth",
         "description": "Accelerate your business growth with AI solutions that evolve with your company."
+      },
+      "ecommerce": {
+        "title": "AI for E-commerce",
+        "description": "Personalize shopping experiences, optimize pricing, and increase conversions with AI."
       }
     },
     "services": {
@@ -111,6 +115,10 @@
       "consulting": {
         "title": "AI Consulting",
         "description": "Expert guidance for companies in the early stages of AI implementation, from strategy to execution."
+      },
+      "ecommerce": {
+        "title": "AI Solutions for E-commerce",
+        "description": "We implement intelligent chatbots, personalized recommendations, predictive sales analytics, and pricing optimization for online stores."
       }
     },
     "cta": "Discover AI Solutions"
