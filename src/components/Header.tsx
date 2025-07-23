@@ -9,6 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -89,8 +90,9 @@ const Header = () => {
             </button>
           </nav>
 
-          {/* Language Selector */}
+          {/* Theme Toggle and Language Selector */}
           <div className="hidden md:flex items-center space-x-4">
+            <ThemeToggle />
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="outline" size="sm">
@@ -162,10 +164,11 @@ const Header = () => {
               >
                 {t("nav.contact")}
               </button>
-              <div className="px-3 py-2">
+              <div className="px-3 py-2 flex space-x-2">
+                <ThemeToggle />
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm" className="w-full">
+                    <Button variant="outline" size="sm" className="flex-1">
                       <Globe className="h-4 w-4 mr-2" />
                       {i18n.language.toUpperCase()}
                     </Button>
