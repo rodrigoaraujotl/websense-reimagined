@@ -38,6 +38,10 @@
     "mobile": {
       "title": "Desarrollo Móvil",
       "description": "Aplicaciones móviles nativas y multiplataforma que brindan experiencias excepcionales al usuario."
+    },
+    "ai": {
+      "title": "Inteligencia Artificial",
+      "description": "Creación de agentes de IA y consultoría para empresas en etapas iniciales de implementación de IA."
     }
   },
   "portfolio": {

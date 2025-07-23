@@ -38,6 +38,10 @@
     "mobile": {
       "title": "Mobile Development",
       "description": "Native and cross-platform mobile applications that provide exceptional user experiences."
+    },
+    "ai": {
+      "title": "Artificial Intelligence",
+      "description": "AI agent creation and consulting services for companies in the early stages of AI implementation."
     }
   },
   "portfolio": {
