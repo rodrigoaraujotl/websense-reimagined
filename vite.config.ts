@@ -46,6 +46,7 @@ export default defineConfig(({ mode }) => ({
         enabled: true, // or false
         token: 'phc_jr6lReeFF8bVNHjXHFi40vRFN0tebVBdMhisRfQiABB', // Find this on https://us.posthog.com/project/settings/project-details#variables
         api_host: 'https://us.i.posthog.com',
+        config: {}
       },
     })
   ].filter(Boolean),
