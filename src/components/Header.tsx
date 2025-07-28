@@ -10,12 +10,16 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import logo from "@/assets/4.png";
+import logo2 from "@/assets/9.png"
+import { useTheme } from "./ThemeProvider";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
+  const { theme } = useTheme()
 
   const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
@@ -51,9 +55,7 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <span className="text-2xl font-bold text-primary font-anonymous">
-              WebSense
-            </span>
+            <a href="/"><img src={theme === "light" ? logo : logo2} alt="WebSense Logo" className="w-28 h-auto" /></a>
           </div>
 
           {/* Desktop Navigation */}

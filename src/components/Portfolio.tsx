@@ -15,7 +15,7 @@ const Portfolio = () => {
     },
     {
       key: "healthcare",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&w=500&h=300",
+      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=500&h=300",
       gradient: "from-green-500 to-teal-600",
     },
     {

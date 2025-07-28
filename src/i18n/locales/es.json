@@ -78,9 +78,9 @@
       "send": "Enviar Mensaje"
     },
     "info": {
-      "email": "hello@websense.consulting",
-      "phone": "+34 (91) 123-4567",
-      "address": "Calle de la Tecnología, 123, Madrid, España 28001"
+      "email": "rodrigo@websense.consulting",
+      "phone": "+55 (11) 95350-2929",
+      "address": "Barueri - São Paulo"
     }
   },
   "ai": {
@@ -124,7 +124,7 @@
     "cta": "Descubrir Soluciones de IA"
   },
   "footer": {
-    "copyright": "© 2024 WebSense Consulting. Todos los derechos reservados.",
+    "copyright": "© 2025 WebSense Consulting. Todos los derechos reservados.",
     "tagline": "Innovando el Futuro, Una Solución a la Vez"
   },
   "aboutPage": {

@@ -1,8 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import logo from "@/assets/5.png";
+import logo2 from "@/assets/6.png"
+import { useTheme } from "./ThemeProvider";
 
 const Footer = () => {
   const { t } = useTranslation();
+
+  const { theme } = useTheme()
 
   const socialLinks = [
     { icon: <Github className="h-5 w-5" />, href: "#", label: "GitHub" },
@@ -17,9 +22,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4 font-anonymous text-primary">
-              WebSense
-            </h3>
+            <img src={theme === "light" ? logo2 : logo} className="w-28 h-auto" />
             <p className="text-background/80 mb-6 max-w-md">
               {t("footer.tagline")}
             </p>

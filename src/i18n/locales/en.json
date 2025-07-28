@@ -78,9 +78,9 @@
       "send": "Send Message"
     },
     "info": {
-      "email": "hello@websense.consulting",
-      "phone": "+1 (555) 123-4567",
-      "address": "123 Tech Street, Innovation City, IC 12345"
+      "email": "rodrigo@websense.consulting",
+      "phone": "+55 (11) 95350-2929",
+      "address": "Barueri - São Paulo"
     }
   },
   "ai": {
@@ -124,7 +124,7 @@
     "cta": "Discover AI Solutions"
   },
   "footer": {
-    "copyright": "© 2024 WebSense Consulting. All rights reserved.",
+    "copyright": "© 2025 WebSense Consulting. All rights reserved.",
     "tagline": "Innovating the Future, One Solution at a Time"
   },
   "aboutPage": {
