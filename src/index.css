@@ -68,6 +68,52 @@ All colors are HSL format for consistency.
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+       /* CSS HEX */
+  --prussian-blue: #13293dff;
+  --lapis-lazuli: #006494ff;
+  --cerulean: #247ba0ff;
+  --celestial-blue: #1b98e0ff;
+  --alice-blue: #e8f1f2ff;
+
+  /* CSS HSL */
+  --prussian-blue: hsla(209, 53%, 16%, 1);
+  --lapis-lazuli: hsla(199, 100%, 29%, 1);
+  --cerulean: hsla(198, 63%, 38%, 1);
+  --celestial-blue: hsla(202, 78%, 49%, 1);
+  --alice-blue: hsla(186, 28%, 93%, 1);
+
+  /* SCSS HEX */
+  --prussian-blue: #13293dff;
+  --lapis-lazuli: #006494ff;
+  --cerulean: #247ba0ff;
+  --celestial-blue: #1b98e0ff;
+  --alice-blue: #e8f1f2ff;
+
+  /* SCSS HSL */
+  --prussian-blue: hsla(209, 53%, 16%, 1);
+  --lapis-lazuli: hsla(199, 100%, 29%, 1);
+  --cerulean: hsla(198, 63%, 38%, 1);
+  --celestial-blue: hsla(202, 78%, 49%, 1);
+  --alice-blue: hsla(186, 28%, 93%, 1);
+
+  /* SCSS RGB */
+  --prussian-blue: rgba(19, 41, 61, 1);
+  --lapis-lazuli: rgba(0, 100, 148, 1);
+  --cerulean: rgba(36, 123, 160, 1);
+  --celestial-blue: rgba(27, 152, 224, 1);
+  --alice-blue: rgba(232, 241, 242, 1);
+
+  /* SCSS Gradient */
+  --gradient-top: linear-gradient(0deg, #13293dff, #006494ff, #247ba0ff, #1b98e0ff, #e8f1f2ff);
+  --gradient-right: linear-gradient(90deg, #13293dff, #006494ff, #247ba0ff, #1b98e0ff, #e8f1f2ff);
+  --gradient-bottom: linear-gradient(180deg, #13293dff, #006494ff, #247ba0ff, #1b98e0ff, #e8f1f2ff);
+  --gradient-left: linear-gradient(270deg, #13293dff, #006494ff, #247ba0ff, #1b98e0ff, #e8f1f2ff);
+  --gradient-top-right: linear-gradient(45deg, #13293dff, #006494ff, #247ba0ff, #1b98e0ff, #e8f1f2ff);
+  --gradient-bottom-right: linear-gradient(135deg, #13293dff, #006494ff, #247ba0ff, #1b98e0ff, #e8f1f2ff);
+  --gradient-top-left: linear-gradient(225deg, #13293dff, #006494ff, #247ba0ff, #1b98e0ff, #e8f1f2ff);
+  --gradient-bottom-left: linear-gradient(315deg, #13293dff, #006494ff, #247ba0ff, #1b98e0ff, #e8f1f2ff);
+  --gradient-radial: radial-gradient(#13293dff, #006494ff, #247ba0ff, #1b98e0ff, #e8f1f2ff);
   }
 
   .dark {
